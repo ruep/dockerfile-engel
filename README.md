@@ -2,7 +2,7 @@
 
 ## Vorrausetzungen:
 
-Docker ist installiert und läuft ( getestet unter OSX )
+Docker ist installiert und läuft ( erstellt unter OSX )
 
 ## Vorgehen:
 Dockerfile und createdb.sh in ein Verzeichnis kopieren und in dem Verzeichnis::
@@ -14,4 +14,8 @@ Dockerfile und createdb.sh in ein Verzeichnis kopieren und in dem Verzeichnis::
     >>> /engelweb/db/createdb.sh engelsystem engeladmin engeladmin
     >>> /usr/bin/mysql -uadmin -pengel engelsystem < /engelweb/db/install.sql
 
-Engelsystem im Browser aufrufen, Anmeldung mit `admin:asdfasdf` vornehmen. (auf OSX bekommt man die ip mit boot2docker ip )
+* Engelsystem im Browser aufrufen (auf OSX bekommt man die ip mit boot2docker ip ) 
+* Registrierung im Browser funktioniert.
+* Anmeldung mit `admin:asdfasdf` vornehmen. Das funktioniert noch nicht !!! 
+
+
